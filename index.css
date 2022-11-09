@@ -3,18 +3,20 @@ body {
     background-color: #1C1C1C;
     color : white;
     font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 .hero{
     background-color: #1F2937;
-    width: 550px;
+    width: 600px;
     margin: auto;
     display: flex;
     justify-content: center;
 }
 
 .content {
-    width: 446px;
+    width: 500px;
     margin-bottom: 40px; 
 }
 
@@ -32,24 +34,26 @@ body {
     text-align: center;
     padding: 10px 0 ;
     cursor: pointer;
+    min-height: 20px;
 }
 
 button{
     background: #4ADF86;
-    color: white;
+    color: #1F2937;
     border-style: none;
-    padding: 7px 13px;
+    padding: 10px 15px;
     border-radius: 5px;
     margin-bottom: 25px;
-    margin-top: 30px;
-    font-weight: lighter;
-    font-size: 13px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 hr {
     color: gray;
     border-style: none;
-    border: solid 0.01px grey;
+    border: solid 1px #2F3E53;
 }
 
 p{
@@ -63,7 +67,7 @@ span{
 }
 
 h1{
-    width: 300px;
+    width: 360px;
     font-family: 'Karla', sans-serif;
-    font-size: 33px;
+    font-size: 40px;
 }

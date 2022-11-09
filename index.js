@@ -24,11 +24,9 @@ function generatePwd(){
 
 function clipText(value){
     if(value == 1){
-        navigator.clipboard.writeText(pwd1.textContent);
-        alert("Copied the text: " + pwd1.textContent);
+        navigator.clipboard.writeText(pwd1.innerHTML).then(() => alert("Text Copied!"));
     }else{
-        navigator.clipboard.writeText(pwd2.textContent);
-        alert("Copied the text: " + pwd2.textContent);
+        navigator.clipboard.writeText(pwd2.innerHTML).then(() => alert("Text Copied!"));
     }
 }
 
